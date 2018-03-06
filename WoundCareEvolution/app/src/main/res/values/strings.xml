@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Wound Care Evolution</string>
+
+    <string name="apropos">Cette application a été crée par \n\n
+        FROMENTIN Axel, Pau GARCIA GOZALVEZ et HASSANI Ahamada, \n\n
+        étudiants à l\'<b>Ecole d\'Ingénieurs ISIS</b> de Castres.</string>
+
+    <string name="help"></string>
+    <string name="titreaide">Aide</string>
+    <string name="titre_ajouter_un_patient">Ajouter un patient</string>
+    <string name="descr_ajouter_patient">Pour ajouter un patient, il suffit d\'appuyer sur le bouton + dans la liste des patients. Après avoir rempli le formulaire, le patient sera accessible dans la liste des patients.</string>
+    <string name="titre_ajouter_un_membre">Ajouter un membre</string>
+    <string name="desc_ajouter_membre">Pour ajouter un membre, il suffit d\'appuyer sur le bouton + dans la fiche du patient. Après avoir donner un nom au membre, le patient sera accessible dans la fiche du patient.</string>
+    <string name="attention">ATTENTION</string>
+    <string name="att_ajouter_membre">Veuillez à ne pas donner plusieurs fois le même nom pour éviter les incompréhension.</string>
+
+    <string name="prise_photo_t">Prise de photo</string>
+    <string name="prise_photo_d">Pour une prise de photo, veuillez suivre la couleur verte sur les boutons. Cette couleur vous indique les boutons à appuyer en premier.</string>
+
+    <string name="calibrage_t">Calibrage </string>
+    <string name="calibrage_d">Le premier bouton qu\'il vous faut appuyer est celui du calibrage. Ce bouton permet de mémoriser le positionnement départ de la prise de photo. Noter qu\'il vous faut calibrer l\'appareil perpendiculairement au support dans lequel le membre est posé.</string>
+
+    <string name="method_t">Méthode visuelle</string>
+    <string name="method_d">Une fois calibré, vous verrez apparaître une méthode visuelle de nuancé vert jaune. Cette méthode oriente l\'utilisateur pour trouver le positionnement départ du calibrage.</string>
+
+    <string name="minuteur_t">Minuteur </string>
+    <string name="minuteur_d">Une fois le carré devenu vert, cela indique que la position du calibrage est trouvé. Un minuteur sera déclenché. Ce minuteur permet à ce que l\'utilisateur ne puisse pas bouger. Au bout du délai de 3 second, la prise de photo est déclenché de façon automatique.</string>
+
+    <string name="galerie_t">Galerie photo</string>
+    <string name="galerie_d">Les images sont positionnés de la plus récente à la plus ancienne. L\'utilisateur pourra alors faire défiler les images afin de voir l\'évolution dans la galerie de la plaie patient.</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+    <string name="scan_code_barre">"Scanner un Code-Barre"</string>
+
+
+</resources>
+

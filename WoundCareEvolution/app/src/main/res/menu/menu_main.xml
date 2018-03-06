@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.casa.camerafilemanager.MainActivity">
+
+    <item
+        android:id="@+id/help"
+        android:actionLayout="@layout/help_layout"
+        android:title="Aide"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/apropos"
+        android:actionLayout="@layout/apropos_layout"
+        android:title="A propos"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:contextClickable="true">
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageFlipper"
+        android:scaleType="centerCrop"
+        android:autoStart="false"
+        android:flipInterval="1000"
+        android:clickable="true"
+        android:nestedScrollingEnabled="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:contextClickable="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:visibility="invisible"
+            android:id="@+id/warning2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pas d&apos;images"
+                android:id="@+id/textView4"
+                android:textColor="#afafaf" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:elevation="6dp"
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/delete"
+            android:background="@drawable/notification_icon_background"
+            android:backgroundTint="#ff0000"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="false"
+            android:src="@android:drawable/ic_menu_delete"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:layout_alignParentTop="false"
+            android:foregroundTint="#fff"
+            android:layout_gravity="left|bottom"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:elevation="4dp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn_add_photo"
+            android:background="@drawable/notification_icon_background"
+
+            android:alpha="1"
+            android:backgroundTint="#00ad63"
+
+            android:tint="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/photo"
+            android:scaleType="fitXY"
+            android:padding="10dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#fff"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Ancienne"
+                    android:id="@+id/textView9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Récente"
+                    android:id="@+id/textView10"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Information de la photo"
+            android:id="@+id/infoPhoto"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textSize="15dp"
+            android:textColor="#ffe100"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/scan_code_barre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="87dp"
+        android:contentDescription="@string/scan_code_barre" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/patientList"
+        android:groupIndicator="@null"
+        android:layout_weight="0.36"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:clickable="false"
+        android:backgroundTint="#00ffffff">
+
+        <ImageButton
+
+        android:elevation="4dp"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn_add_patient"
+        android:src="@android:drawable/ic_input_add"
+        android:background="@drawable/notification_icon_background"
+
+        android:alpha="1"
+        android:backgroundTint="#00ad63"
+
+        android:tint="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/warning0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/scan_code_barre"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pas de patients"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#afafaf" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
